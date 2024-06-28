@@ -14,7 +14,6 @@ int main(){
 
     bool ans = true;
     for (int i = 0; i < s.size();){
-        cout << i << " ";
         bool can_divide_word = false;// 4 個の文字列たちどれかで divide できるか
         rep(j,4){
             string word = divide[j];
@@ -25,7 +24,6 @@ int main(){
         }
         if(!can_divide_word){
             ans = false;
-            cout << i << endl;
             break;
         }
         

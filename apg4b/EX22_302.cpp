@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int n;
     cin >> n;
-    vector<pair<int,int>> p(n);
+    vector<pair<int,int>> p(n);//長さは必要
     //注意:a,bを代入してからpair型を作る。
     int a,b;
     for(int i = 0; i < n; i++){

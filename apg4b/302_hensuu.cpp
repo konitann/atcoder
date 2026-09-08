@@ -70,6 +70,7 @@ void auto_module(){     //型の省略
     vector<int> c = {1,2,3};
     auto d = c; //copy
     
+    //dの要素をnanndemokaに代入して、for文が回る。
     for(auto nanndemoka : d){
         cout << nanndemoka << endl;
     }

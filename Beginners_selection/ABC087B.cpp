@@ -1,4 +1,5 @@
 /*ABC087B - Coins*/
+/*2つの変数が決まれば残りの変数も決まるO(N^3)→O(N^2)*/
 #include <bits/stdc++.h>
 
 using namespace std;
